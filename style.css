@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.outer-page{
+    width: 794px;
+    height: 1123px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+.address{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+
+
+/* address---------------- */
+.bg{
+    background-image: linear-gradient(to bottom right, rgba(12, 12, 12, 0.5), rgba(19, 19, 19, 0.5)), url('img/bg.jpg');
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+}
+
+.addr{
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    width: 150px;
+    margin-bottom: 10px;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.address-inner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.form-label{
+    color: white;
+}
+
+.form-control{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+
+/* car info------ */
+.car-details{
+    color: white;
+}
+.cars{
+    width: 160px;
+    height: auto;
+}
+
+.cars2{
+    width: 320px;
+    height: auto;
+}
+
+.all-spec{
+    font-size: 10px;
+}
+
+  
+  /* about section-------------- *//*# sourceMappingURL=about.css.map */
